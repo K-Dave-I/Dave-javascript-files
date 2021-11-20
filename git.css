@@ -1,0 +1,12 @@
+body{
+    background-color:rgb(85, 85, 10);
+    font-size: larger;
+    color: white;
+    font-style: italic;
+}
+img{
+    border-radius: 40%;
+}
+p{
+    width: 50%;
+}
