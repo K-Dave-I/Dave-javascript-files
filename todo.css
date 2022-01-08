@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body{
+    background-color:rgb(4, 27, 51);
+    font-size:larger;
+    color:whitesmoke ;
+    font-family: 'Lato', sans-serif;
+}
+#input{
+    padding: 12px;
+    margin-left: 550px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    width: 300px;
+    align-items: center;
+    border-radius: 1rem;
+}
+#button{
+    color: wheat;
+    box-sizing: border-box;
+    background-color: rgb(4, 27, 51);
+    border: 2px solid rgb(4, 27, 51);
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+}
+#parag{
+    align-items: center;
+}
+h3{
+    margin-right: 550px;
+    color: white;
+}
+#red,#white,#green{
+    margin-bottom: 12px;
+    padding: 13px;
+    width: 79px;
+    border: 2px solid rgb(4, 27, 51);
+    background-color: rgb(4, 27, 51);
+    color:tan;
+    cursor: pointer;
+}
+

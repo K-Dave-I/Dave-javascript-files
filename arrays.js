@@ -14,7 +14,7 @@ console.log(list);
 list.pop();
 console.log(list);
 
-//object
+//object 
 let myDog = {
     name : "Jackson",
     age : "12",
