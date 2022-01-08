@@ -1,6 +1,6 @@
 
 let button = document.getElementById('button');
-
+let input = document.getElementById('input');
 button.addEventListener('click',function(){
 let par = document.createElement('p')
 par.innerText = input.value
@@ -17,14 +17,17 @@ par.style.borderRadius = '1rem'
 par.style.width = '500px'
 par.style.paddingLeft = '15px'
 par.appendChild(buttonElement);
-buttonElement.style.marginLeft = '300px'
 buttonElement.style.marginBottom = '12px'
 buttonElement.style.marginTop = '13px'
+buttonElement.style.marginLeft = '400px'
+buttonElement.style.height = '30px'
 buttonElement.style.alignItems = 'centre'
 buttonElement.addEventListener('click',function(){
 par.parentNode.removeChild(par)
 })
+input.value = ''
 })
+
 
 let redTheme = document.getElementById('red')
 let body = document.getElementById('bod')
@@ -41,4 +44,10 @@ body.style.color = 'black'
 heading.style.color = 'black'
 })
 
+let defaulty = document.getElementById('default')
+defaulty.addEventListener('click',function(){
+body.style.backgroundColor = 'rgb(4, 27, 51)'
+body.style.color = 'black'
+heading.style.color = 'white'
+})
 

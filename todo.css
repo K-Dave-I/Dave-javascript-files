@@ -31,7 +31,7 @@ h3{
     margin-right: 550px;
     color: white;
 }
-#red,#white,#green{
+#red,#default,#green{
     margin-bottom: 12px;
     padding: 13px;
     width: 79px;
@@ -40,4 +40,3 @@ h3{
     color:tan;
     cursor: pointer;
 }
-
